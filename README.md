@@ -29,7 +29,6 @@ struct Identity<'a> {
     username: &'a str,
     location: &'a str,
     web: &'a str,
-    code: Vec<Skill<'a>>,
 }
 
 struct Skill<'a> {
@@ -44,13 +43,26 @@ fn main() {
         username: "Mageas",
         location: "Lyon, France",
         web: "https://gitea.heartnerds.org/Mageas",
-        code: vec![
-            Skill {
-                name: "frontend",
-                list: vec!["HTML", "CSS", "Javascript", "Svelte"],
-            },
-        ],
     };
+    
+    let my_skills = vec![
+        Skill {
+            name: "Languages",
+            list: vec!["Rust", "Shell", "Python", "Javascript", "HTML", "CSS", "Svelte", "Laravel"],
+        },
+        Skill {
+            name: "Operating system",
+            list: vec!["Linux", "Windows"],
+        },
+        Skill {
+            name: "Devops",
+            list: vec!["Docker", "Nginx"],
+        },
+        Skill {
+            name: "Tools",
+            list: vec!["Git", "Github", "Gitlab"],
+        },
+    ];
 }
 ```
 
