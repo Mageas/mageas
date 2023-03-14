@@ -27,7 +27,6 @@ struct Skill<'a> {
     list: Vec<&'a str>,
 }
 
-
 fn main() {
     let me = Identity {
         name: "Arnaud Gaydamour",
