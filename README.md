@@ -29,6 +29,12 @@ struct Identity<'a> {
     username: &'a str,
     location: &'a str,
     web: &'a str,
+    code: Vec<Skill<'a>>,
+}
+
+struct Skill<'a> {
+    name: &'a str,
+    list: Vec<&'a str>,
 }
 
 
@@ -37,8 +43,42 @@ fn main() {
         name: "Arnaud Gaydamour",
         username: "Mageas",
         location: "Lyon, France",
-        web: "https://gitea.heartnerds.org/Mageas"
+        web: "https://gitea.heartnerds.org/Mageas",
+        code: vec![
+            Skill {
+                name: "frontend",
+                list: vec!["HTML", "CSS", "Javascript", "Svelte"],
+            },
+        ],
     };
 }
 ```
 
+## 🚀 My Skills
+
+> _Tools, languages, and other things that I like to work with_
+
+- 💻 &nbsp;
+  ![Rust](https://img.shields.io/badge/-RUST-c58545?style=for-the-badge&logo=rust&logoColor=c58545&labelColor=282828)
+  ![Rust](https://img.shields.io/badge/-RUST-c58545?style=for-the-badge&logo=rust&logoColor=c58545&labelColor=282828)
+- 🌐 &nbsp;
+  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+  ![BootStrap](https://img.shields.io/badge/-BootStrap-333333?style=flat&logo=bootstrap&logoColor=1572B6)
+  ![JQuery](https://img.shields.io/badge/-JQuery-333333?style=flat&logo=jquery)
+  ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
+  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
+  ![Django](https://img.shields.io/badge/-Django-333333?style=flat&logo=django)
+- 🛢 &nbsp;
+  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-333333?style=flat&logo=mongodb)
+  ![Firebase](https://img.shields.io/badge/-Firebase-333333?style=flat&logo=firebase)
+- ⚙️ &nbsp;
+  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
+  ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+- 📱 &nbsp;
+  ![Android](https://img.shields.io/badge/-Android-333333?style=flat&logo=android)
+  ![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=flutter)
+  ![ReactNative](https://img.shields.io/badge/-React%20Native-333333?style=flat&logo=react)
+- 🎮 &nbsp;
+  ![Unity](https://img.shields.io/badge/-Unity-333333?style=flat&logo=unity)
