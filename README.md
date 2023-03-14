@@ -10,7 +10,7 @@ I am currently living in Lyon, France and I am studying again. I am self-taught 
 <div align="center">
   <a href="https://www.linkedin.com/in/arnaud-gaydamour-0aa4041a4/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" /></a>&nbsp;
   <a href="https://gitea.heartnerds.org/Mageas"><img src="https://img.shields.io/badge/gitea-%609a2100.svg?&style=for-the-badge&logo=gitea&logoColor=white" alt="Youtube" /></a>&nbsp;
-  <a href="https://www.youtube.com/@mageas557"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube" /></a>&nbsp;
+  <a href="https://www.youtube.com/@mageas"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube" /></a>&nbsp;
 </div>
 </p> 
 
