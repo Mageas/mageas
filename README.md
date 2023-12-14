@@ -38,11 +38,11 @@ fn main() {
     let my_skills = vec![
         Skill {
             name: "Languages",
-            list: vec!["Rust", "Shell", "Python", "Javascript", "HTML", "CSS"],
+            list: vec!["Rust", "Shell", "Python", "Javascript", "PHP", "HTML", "CSS"],
         },
         Skill {
             name: "Frameworks",
-            list: vec!["Svelte", "Laravel"],
+            list: vec!["React", "SugarCRM", "NestJS", "Laravel"],
         },
         Skill {
             name: "Operating system",
