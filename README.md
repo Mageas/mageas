@@ -2,8 +2,10 @@
   Hello, I'm Arnaud Gaydamour! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">
 </h1>
 
-I am currently living in Lyon, France and I am studying again. I am self-taught and I am learning programming through small personal projects in my free time.
-
+<p align="center">
+  CRM developer at <a href="https://www.synolia.com">Synolia</a> in Lyon, France.<br>
+  I build integrations and automations around SugarCRM, HubSpot and Zendesk.
+</p>
 <br>
 
 <p>
@@ -11,48 +13,19 @@ I am currently living in Lyon, France and I am studying again. I am self-taught 
   <a href="https://www.linkedin.com/in/arnaud-gaydamour-0aa4041a4/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin" /></a>&nbsp;
   <a href="https://www.youtube.com/@mageas"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube" /></a>&nbsp;
 </div>
-</p> 
+</p>
 
-```rust
-struct Identity<'a> {
-    name: &'a str,
-    username: &'a str,
-    location: &'a str,
-}
+```text
+❯ claude
 
-struct Skill<'a> {
-    name: &'a str,
-    list: Vec<&'a str>,
-}
+> Hey Claude, introduce me to people visiting my GitHub.
 
-fn main() {
-    let me = Identity {
-        name: "Arnaud Gaydamour",
-        username: "Mageas",
-        location: "Lyon, France",
-    };
+● Arnaud. Lyon-based dev who makes CRMs talk to each other.
+  Has more side projects than finished ones.
+  Runs a homelab that breaks on weekends, on purpose.
+  Lives in Neovim, thinks out loud with me.
 
-    let my_skills = vec![
-        Skill {
-            name: "Languages",
-            list: vec!["Rust", "Go", "PHP", "JavaScript", "TypeScript", "Python", "SQL", "Shell"],
-        },
-        Skill {
-            name: "Frameworks",
-            list: vec!["Svelte", "Vue.js", "React"],
-        },
-        Skill {
-            name: "CRM & Automation",
-            list: vec!["SugarCRM", "Zendesk", "Make", "Monday", "HubSpot", "AWX"],
-        },
-        Skill {
-            name: "DevOps & Tools",
-            list: vec!["Docker", "Nginx", "Git", "Linux", "Github CI", "Grafana"],
-        },
-        Skill {
-            name: "Editors",
-            list: vec!["Neovim", "VSCode", "Helix"],
-        },
-    ];
-}
+> Anything else?
+
+● He probably asked me to write this README. 👀
 ```
